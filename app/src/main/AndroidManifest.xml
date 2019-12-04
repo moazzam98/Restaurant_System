@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aorms_seda">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".aorms_seda"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Order_Details_Report"></activity>
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EmployeeUpdate"
+            android:theme="@style/AppTheme.PopUp" />
+        <activity
+            android:name=".EmployeeRemove"
+            android:theme="@style/AppTheme.PopUp" />
+        <activity
+            android:name=".EmployeeAdd"
+            android:theme="@style/AppTheme.PopUp" />
+        <activity
+            android:name=".TabletRemove"
+            android:theme="@style/AppTheme.PopUp" />
+        <activity
+            android:name=".TabletAdd"
+            android:theme="@style/AppTheme.PopUp" />
+        <activity
+            android:name=".MenuRemove"
+            android:theme="@style/AppTheme.PopUp" />
+        <activity
+            android:name=".MenuAdd"
+            android:theme="@style/AppTheme.PopUp" />
+        <activity
+            android:name=".IngredientUpdate"
+            android:theme="@style/AppTheme.PopUp" />
+        <activity
+            android:name=".IngredientAdd"
+            android:theme="@style/AppTheme.PopUp" />
+        <activity android:name=".LandingPage"></activity>
+        <activity
+            android:name=".kitchenActivity"
+            android:label="Kitchen Management"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ReportsActivity"
+            android:label="@string/title_activity_reports"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FoodOrderSecondScreen" />
+        <activity android:name=".FoodOrderMainMenu" />
+        <activity android:name=".FoodItemDetails" />
+        <activity android:name=".InventoryManager" />
+        <activity android:name=".EmployeeDetails" />
+        <activity android:name=".ItemActivity" />
+        <activity android:name=".MenuOption" />
+        <activity android:name=".EmployeeOption" />
+        <activity android:name=".TabletOption" />
+        <activity
+            android:name=".RequestChangeActivity"
+            android:label="Kitchen Management"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".OrderDetailsActivity"
+            android:label="Kitchen Management"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".GuiDemoL164348"
+            android:label="@string/title_activity_gui_demo_l164348"
+            android:parentActivityName=".activity_SignUp"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aorms_seda.activity_SignUp" />
+        </activity>
+        <activity android:name=".hall_manager_orderdetail" />
+        <activity android:name=".activity_SignUp" />
+        <activity android:name=".assignTableToTabletActivity" />
+        <activity android:name=".hall_manager_items_detail" />
+        <activity android:name=".menuaroms" />
+        <activity android:name=".hallthreshold" />
+        <activity android:name=".cartaroms" />
+        <activity android:name=".Order_placement_screen2" />
+        <activity android:name=".cartOrderPlacement" />
+    </application>
+
+</manifest>

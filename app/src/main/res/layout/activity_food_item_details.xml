@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/itemTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:paddingLeft="20sp"
+        android:paddingTop="40sp"
+        android:paddingRight="20sp"
+
+        android:paddingBottom="20sp"
+        android:text="Dish Details"
+        android:textAlignment="center"
+        android:textColor="@color/TextColor"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dishId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20sp"
+        android:paddingTop="20sp"
+        android:paddingRight="20sp"
+        android:paddingBottom="15sp"
+        android:text="ID: "
+        android:textColor="@color/TextColor"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/dishName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20sp"
+        android:paddingTop="5sp"
+        android:paddingRight="20sp"
+        android:paddingBottom="15sp"
+        android:text="ID: "
+        android:textColor="@color/TextColor"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/dishType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20sp"
+        android:paddingTop="5sp"
+        android:paddingRight="20sp"
+        android:paddingBottom="15sp"
+        android:text="ID: "
+        android:textColor="@color/TextColor"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/dishAvailable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20sp"
+        android:paddingTop="5sp"
+        android:paddingRight="20sp"
+        android:paddingBottom="15sp"
+        android:text="ID: "
+        android:textColor="@color/TextColor"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/dishTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20sp"
+        android:paddingTop="5sp"
+        android:paddingRight="20sp"
+        android:paddingBottom="15sp"
+        android:text="ID: "
+        android:textColor="@color/TextColor"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/dishPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20sp"
+        android:paddingTop="5sp"
+        android:paddingRight="20sp"
+        android:paddingBottom="15sp"
+        android:text="ID: "
+        android:textColor="@color/TextColor"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="20sp"
+        android:paddingTop="20sp"
+        android:paddingRight="20sp"
+        android:paddingBottom="15sp"
+        android:text="Ingredients"
+        android:textColor="@color/TextColor"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dishIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20sp"
+        android:paddingTop="10sp"
+        android:paddingRight="20sp"
+        android:paddingBottom="15sp"
+        android:text="ID: "
+        android:textColor="@color/TextColor"
+        android:textSize="16dp" />
+
+
+</LinearLayout>
